@@ -34,4 +34,22 @@ when we run code it ask for input.\
 The first line contains two space-separated integers: n, the number of universes and m, the number of portals.\
 Then m lines follow, ith line contains three integers, universe ai and bi, connected through the ith portal
 and ci, the travelling time between the mentioned universes.\
-Then n lines follow, ith line contains ki, number of time instances when the demons are patrolling the ith universe. Then ki space separated integers tij follow in sorted order.tij means that at this timestamp some demon was patrolling on the ith universe and the spiderman had to wait for this second (if he is at this universe at this timestamp).
+Then n lines follow, ith line contains ki, number of time instances when the demons are patrolling the ith universe. Then ki space separated integers tij follow in sorted order.tij means that at this timestamp some demon was patrolling on the ith universe and the spiderman had to wait for this second (if he is at this universe at this timestamp).\
+<br>
+<br>
+<br>
+<br>
+
+
+#Yet Another Coronavirus Question\
+Input file: standard input\
+Output file: standard output\
+Time limit: 2 seconds Memory limit: 256 megabytes\
+Aladdin is the Supreme Leader of his country, Wadiya and wants to determine the epicentre of coronavirus in his nation. Wadiya has n cities which are connected to each other by n 1 roads which are bidirectional. The length of each road is 1 unit. For some weird reason, the virus can travel only along these roads. One can travel from any city u to any city v through these roads.\
+There are h cities which are infected and are coronavirus hotspots. This list of cities may be incomplete (i.e., there may be other cities which are also infected). Aladdin knows that the virus starts spreading from the epicentre and reaches only those cities which are at a distance of atmost x units from the epicentre. You are given the list of infected cities, and you have to determine the number of possible epicentres of the virus. Note that it may be possible that some opposer to the regime corrupted the data, and hence there is no valid epicentre that can be deduced from the data.\
+Input\
+The first line contains the integers n (1 n 105), h (1 h n) and x (0 x n 1) which denote the number of cities, the number of hotspots and the distance that the virus can travel from the epicentre.\
+The second line contains h integers c1, c1 ... ch denoting the hotspots (1 ≤ ci ≤ n).\
+Next n − 1 lines contain integers u, v indicating that a road exists between cities u and v.\
+Output:
+Output a single integer denoting the answer.
